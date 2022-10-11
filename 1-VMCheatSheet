@@ -1,0 +1,81 @@
+Operating Systems
+
+Marketplace contains supported images. You can create custom images for other options.
+
+Windows :
+5 years of mainstream support + 5 years of extended support (10 years total)
+● Server 2008 R2 SP1
+● 2012 Datacenter
+● 2012 Datacenter R2
+● 2016 Datacenter
+● 2019 Datacenter,
+● 2012 Datacenter Server Core (no UI)
+● 2012 Datacenter with Containers (pre-installed support for containers)
+
+Linux:
+Linux is not always free, depending on the distribution you choose.
+● CentOS
+● Ubuntu
+● Red Hat Enterprise Linux (RHEL)
+● Ubuntu Advantage
+● SUSE Linux
+
+Sizes
+Instance Family:
+● General Purpose - balanced VM
+● Compute Optimized - double the CPU cores
+● Memory Optimized - double the memory
+● Storage Optimized - double the local storage
+● GPU - access to a graphics processing unit
+● High-Performance Compute - fastest everything
+
+General Purpose - balanced VM
+“Balanced CPU-to-memory ratio. Ideal for testing and development, small to medium
+databases, and low to medium traffic web servers.”
+● D Series
+● A Series (non-critical)
+● B Series (economical)
+● DC Series (preview, confidential computing)
+
+Compute Optimized - double the CPU cores
+“High CPU-to-memory ratio. Good for medium traffic web servers, network appliances, batch
+processes, and application servers.”
+● F Series
+Memory Optimized - double the memory
+“High memory-to-core ratio. Great for relational database servers, medium to large caches,
+and in-memory analytics.”
+● E Series
+● D11-15
+● G Series (includes powerful CPU for database workloads)
+● M Series (certified for SAP HANA, up to 416 cores + 12 TB memory)
+
+Storage Optimized - double the local storage
+“High disk throughput and IO. Ideal for Big Data, SQL, and NoSQL databases.”
+● L Series
+
+GPU - access to a graphics processing unit
+“Specialized virtual machines targeted for heavy graphic rendering and video editing
+available with single or multiple GPUs.”
+● N Series (incl NC, NV, ND)
+
+High-Performance Compute - fastest everything
+“Our fastest and most powerful CPU virtual machines with optional high-throughput network
+interfaces (RDMA).”
+● H Series (incl HB and HC)
+
+Payment Options
+● Pay As You Go (PAYG) - charged by the minute
+● Reserved VMs - a committment; pay for 1 or 3 years in advance, or paid monthly
+● Spot Pricing - like an auction; bid on compute time only while available
+● Hybrid Benefit - pay for Windows & SQL Server licenses through Enterprise
+Agreement, likely cheaper
+
+Notes
+● Permanent Storage charged separately
+● Public IP addresses have a cost
+● Bandwidth into Azure (egress) has a cost
+● Region chosen affects pricing
+● Can get Windows VM images with SQL Server, Biztalk, Sharepoint or Machine
+Learning Server preinstalled, for additional licensing cost
+● Can get Linux VM images with SQL Server and Machine Learning Server
+preinstalled, for additional licensing cost
